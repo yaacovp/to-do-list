@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #taskContainer {
+    margin-top: 20px;
+    
+  }
+  
+  .task {
+    margin-bottom: 10px;
+  }
+
+  .task button{
+    margin-left: 5px;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+  }
+  
+  #addTaskContainer {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  #taskInput {
+    flex: 1;
+    padding: 8px;
+  }
+  
+  button {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
